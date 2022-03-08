@@ -9,7 +9,7 @@ app = FastAPI()
 async def root():
     return {
 
-        "Hello"
+        "Hello, this is for test purposes"
     }
 
 
