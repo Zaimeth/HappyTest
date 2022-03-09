@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  bmi-service:
+    container_name: BMI-Service
+    build: .
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "14"
+        labels: "BMI-Service-_Status"
+    ports:
+      - 8000:8000
