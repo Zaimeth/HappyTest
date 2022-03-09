@@ -1,5 +1,4 @@
-![Build Status](https://github.com/Zaimeth/HappyTest/actions/workflows/Build.yaml/badge.svg)
-
+[![Build](https://github.com/Zaimeth/HappyTest/actions/workflows/Build.yml/badge.svg)](https://github.com/Zaimeth/HappyTest/actions/workflows/Build.yml)
 
 # HappyBMI
 **This repository was created as one of the stages in ongoing tests**
