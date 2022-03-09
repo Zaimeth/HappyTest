@@ -1,5 +1,4 @@
-name: Build and Deployment Staging Branch
-
+name: Build 
 on:
   push:
     branches: [master]
