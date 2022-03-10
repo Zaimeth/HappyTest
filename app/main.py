@@ -8,8 +8,7 @@ app = FastAPI()
 @app.get("/")
 async def root():
     return {
-
-        "Hello, this is for test purposes"
+        "Hello, For example, the use of BMI is as follows 'http://fauzi.veeryaa.my.id:8080/api/bmicalculator/?height=1.8&weight=65'. The complete document can be seen at /docs"
     }
 
 
